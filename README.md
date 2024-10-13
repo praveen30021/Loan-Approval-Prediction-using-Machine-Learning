@@ -1,7 +1,7 @@
 # Loan-Approval-Prediction-using-Machine-Learning
 This project aims to predict whether a loan application will be approved or not based on various applicant features such as marital status, income, education, credit history, and more. The model uses a Random Forest Classifier to predict loan approval status. The project demonstrates end-to-end machine learning workflow, from data preprocessing to model evaluation.
 
-Table of Contents
+# Table of Contents
 Project Overview
 Dataset
 Features
@@ -9,10 +9,11 @@ Steps Involved
 Model Evaluation
 Requirements
 How to Run
-Project Overview
+
+# Project Overview
 The Loan Approval Prediction model predicts whether an applicant's loan application will be approved or rejected. The dataset used includes both numerical and categorical data, such as income, education, credit history, marital status, and more.
 
-Dataset
+# Dataset
 The dataset contains the following columns:
 
 Loan_ID: Unique identifier for each loan.
@@ -28,7 +29,8 @@ Loan_Amount_Term: Term of the loan in months.
 Credit_History: Credit history (1.0 or 0.0).
 Property_Area: Area type (Urban/Semiurban/Rural).
 Loan_Status: Target variable (Y/N, Approved/Not Approved).
-Features
+
+# Features
 Gender: Categorical variable (Male, Female).
 Marital Status: Categorical variable (Married, Single).
 Dependents: Number of dependents.
@@ -41,26 +43,28 @@ Loan_Amount_Term: Numeric, loan duration in months.
 Credit_History: Categorical (1.0 for good credit, 0.0 for bad credit).
 Property_Area: Categorical variable (Urban, Semiurban, Rural).
 Loan_Status: Target variable (Y = Loan approved, N = Loan not approved).
-Steps Involved
-Data Preprocessing:
 
+# Steps Involved
+Data Preprocessing:
 Handling missing values using median for numerical data and mode for categorical data.
 Label encoding categorical variables to make them suitable for machine learning models.
-Model Building:
 
+Model Building:
 Splitting data into features and target variables.
 Splitting data into training and testing sets.
 Training the model using Random Forest Classifier.
-Model Evaluation:
 
+Model Evaluation:
 Evaluating the model performance using accuracy, confusion matrix, and classification report.
 Analyzing feature importance to identify key factors affecting loan approvals.
-Model Evaluation
+
+# Model Evaluation
 Accuracy: The model achieved an accuracy of X% on the test set.
 Confusion Matrix: Provides insights into the number of correct and incorrect predictions.
 Classification Report: Displays precision, recall, F1-score, and support for both classes (approved and not approved).
 Feature Importance: Highlights the most important features for loan approval predictions.
-Requirements
+
+# Requirements
 Python 3.x
 Pandas
 NumPy
@@ -75,8 +79,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 2. Navigate to the project directory:- cd Loan-Approval-Prediction-using-Machine-Learning
 3. Place your CSV dataset (e.g., LoanApprovalPrediction.csv) in the project directory.
 4. Run the Jupyter notebook or Python script:- jupyter notebook Loan_Approval_Prediction.ipynb 
-# or 
-python Loan_Approval_Prediction.py
+        or 
+   python Loan_Approval_Prediction.py
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.

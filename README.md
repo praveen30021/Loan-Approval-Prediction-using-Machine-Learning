@@ -82,10 +82,10 @@ pip install pandas numpy scikit-learn matplotlib seaborn
         or 
    python Loan_Approval_Prediction.py
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+# Acknowledgements
 Dataset sourced from Kaggle.
 Machine Learning algorithms and evaluation using Scikit-Learn.
 Special thanks to open-source contributors.
